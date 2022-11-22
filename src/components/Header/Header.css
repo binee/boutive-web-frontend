@@ -1,0 +1,164 @@
+
+.Header {
+  max-height:10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  font-size:12px;
+  color: black;
+  border-bottom: 1px solid lightgray;
+  padding: 4px 12px 4px 12px;
+  background-color:#fff;
+}
+
+.Header-button {
+  background-color:#FA7782;
+  min-width:80px;
+  min-height:30px;
+  border:none;
+  color:#fff;
+  border-radius:10px;
+  font-size:16px;
+}
+
+.Header-button:hover{
+  background-color:#ff8a94;
+}
+
+.Header-links{
+  width:auto;
+  font-size:18px;
+  padding:0px 8px 0px 8px;
+  white-space: nowrap;
+}
+
+.Header-links:hover{
+  color:#ff8a94;
+}
+
+.Header input[type=text] {
+  padding: 6px;
+  padding-left:24px;
+  font-size: 17px;
+  width: 98%;
+  margin-left: 4px;
+  margin-right: 12px;
+  border-radius: 15px;
+  border: 1px solid lightgray;
+  background: url("../../assets/search_24px_outlined.svg") left     no-repeat;
+
+}
+
+.App-logo {
+  height: 45px;
+  border-radius:25px;
+  margin-right:8px;
+  display:flex;
+  align-items: center;
+  font-size:25px;
+}
+
+.App-logo img{
+  width:auto;
+  height:65%;
+  margin-right:4px;
+}
+
+.Nav-buttons{
+  display:flex;
+  align-items: center;
+  width:60px;
+  font-size:15px;
+  margin-right:12px;
+  margin-left:8px;
+}
+
+.Nav-buttons-button {
+  background-color:gray;
+  border-radius:25px;
+  height:40px;
+  width:40px;
+  margin-left: 4px;
+  margin-right:4px;
+}
+
+.Modal {
+  position:relative;
+  background-color:#fff;
+  padding:5px 5px 20px 5px;
+  border-radius:20px;
+  outline: none;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Modal-title{
+width:90%;
+position:relative;
+margin-bottom:4px;
+}
+
+.Modal-title-close{
+  position:absolute;
+  right:0;
+  top:0;
+  padding:10px;
+  font-weight:bold;
+  font-size:22px;
+  cursor:pointer;
+  background-color: transparent;
+  border:none;
+}
+
+.Favorite-heart {
+  height: 30px;
+  min-width: 30px;
+  color:#FA7782;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.Favorite-heart:hover{
+  color:#ff8a94;
+}
+
+.Main-Menu{
+    height: 30px;
+    min-width: 30px;
+    color:gray;
+    margin-left: 4px;
+    margin-right: 16px;
+    display:none;
+}
+
+h1 {
+  font-size:25px;
+  font-weight:normal;
+}
+
+@media screen and (max-width: 630px) {
+.Boutive{
+  display:none;
+}
+.Main-Menu{
+  display:block;
+}
+
+.Header-links{
+  display:none;
+}
+}

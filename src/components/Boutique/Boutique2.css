@@ -1,0 +1,39 @@
+.Boutique {
+  margin-left:auto;
+  margin-right:auto;
+  display:flex;
+  align-items: center;
+  flex-direction:column;
+  width:70%;
+  min-height:100vh;
+}
+
+.Boutique-hero-image{
+  width:100%;
+  height:200px;
+  background-color:gray;
+  margin-top:24px;
+  margin-bottom:24px;
+}
+
+.Boutique-logo{
+  height:200px;
+  min-width:200px;
+  border-radius:100px;
+  background-color:blue;
+  margin-right:24px;
+  margin-top: -75px;
+}
+
+.Boutique-description{
+  margin-bottom: 16px;
+
+}
+
+h1 {
+  margin:0;
+}
+
+.Flexer-center{
+  align-items:flex-start;
+}

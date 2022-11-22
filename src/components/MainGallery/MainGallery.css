@@ -1,0 +1,112 @@
+.MainGallery {
+  height:auto;
+  display:flex;
+  padding-top:16px;
+  padding-left:4px;
+  padding-right:4px;
+  min-height:100vh;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:40px;
+
+}
+
+.MainGallery h1{
+  font-size:36px;
+  margin-bottom:24px;
+}
+
+.MainGallery h2 {
+  font-weight:500;
+  padding:0;
+  margin:0;
+  font-size:16px;
+}
+
+.Item-card{
+  width:300px;
+  border-radius:15px;
+  margin-left:8px;
+  margin-right:8px;
+}
+
+.Item-card-image{
+  height:350px;
+  width:100%;
+  background-color:gray;
+  border-radius:15px;
+  object-fit:cover;
+}
+
+
+.Item-card-information{
+padding:4px;
+}
+
+.Item-card-price {
+  font-weight:400;
+  color:#FA7782;
+}
+
+.Item-card-boutique{
+  color:#444;
+}
+
+.infinite-scroll-component{
+    overflow:hidden !important;
+}
+
+.Item-title-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.Overflow-hidden {
+  Overflow:hidden;
+}
+
+.Main-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -4px; /* gutter size offset */
+  width: 1280px;
+
+}
+.Main-masonry-grid_column {
+  padding-left: 4px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.Main-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1260px) {
+  .Main-masonry-grid {
+    width:960px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .Main-masonry-grid {
+    width:640px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .Main-masonry-grid {
+    width:auto;
+    padding-right:8px;
+    padding-left:8px;
+  }
+  .Item-card{
+    width:45vw;
+    margin-left:4px;
+    margin-right:4px;
+  }
+  .Item-card-image{
+    height:calc(45vw*1.2);
+  }
+}

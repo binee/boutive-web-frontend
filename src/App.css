@@ -1,0 +1,18 @@
+.App {
+  background-color: rgb(245, 245, 245);
+  min-height:100vh;
+  height:auto;
+}
+
+
+
+.App-link {
+
+}
+
+.Flexer-center {
+display:flex;
+flex-direction: row;
+align-items: center;
+justify-content:space-between;
+}

@@ -1,0 +1,62 @@
+.Login {
+width:300px;
+height:auto;
+display:flex;
+flex-direction:column;
+align-items: center;
+justify-content: space-around;
+background-color:#fff;
+padding: 10px 5px 10px 5px;
+font-size:16px;
+}
+
+.Login a {
+  color:#FA7782;
+  text-decoration: underline;
+}
+
+.Facebook-login {
+width:250px;
+height: 40px;
+background-color:#3b5998;
+border-radius:5px;
+color:#fff;
+margin-top:10px;
+font-weight:bold;
+border:none;
+margin-bottom: 16px;
+
+}
+
+.Facebook-login i{
+margin-right:8px;
+}
+
+.Login-center{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  width:250px;
+}
+
+.Sign-in-form{
+  display:flex;
+  flex-direction: column;
+}
+
+.Sign-in-form input{
+  margin-top:8px;
+  margin-bottom:8px;
+  border-radius:5px;
+  border:1px solid lightgray;
+  height:25px;
+}
+
+.Sign-in-form input[type="submit"] {
+  background-color:#FA7782;
+  height: 35px;
+  color:white;
+  border:none;
+  cursor:pointer;
+  font-weight:bold;
+}

@@ -1,0 +1,24 @@
+.Footer {
+  width:100%;
+  min-height:150px;
+  background-color: #fff;
+  position:relative;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.Social-follow-links {
+  height:90px;
+  width:50%;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Social-follow-icons{
+  height:40px;
+  width:40px;
+  color:#FA7782;
+}

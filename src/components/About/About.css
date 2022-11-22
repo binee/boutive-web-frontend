@@ -1,0 +1,57 @@
+.About {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+}
+
+.About-wrapper{
+  width:50%;
+  display: flex;
+  flex-direction:column;
+}
+
+.About h1 {
+  margin: 32px 0 32px 0;
+  font-size:36px;
+  align-self:center;
+}
+
+.About p {
+  font-size:18px;
+}
+
+.About-sign-up-form {
+  width:100%;
+}
+
+#mc_embed_signup{ clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+
+.About input.button{
+  margin-left:5px !important;
+  background-color:#FA7782 !important;
+}
+
+
+.About input.button:hover{
+  background-color:#ff8a94 !important;
+}
+
+@media screen and (max-width: 1000px) {
+  .About-wrapper{
+    width:75%;
+  }
+}
+
+
+
+@media screen and (max-width: 630px) {
+  .About h1 {
+    margin: 32px 0 32px 0;
+    font-size:28px;
+    align-self:center;
+  }
+  .About-wrapper{
+    width:90%;
+  }
+}
